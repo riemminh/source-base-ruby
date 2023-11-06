@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 import { Collapse } from '@mui/material';
 import { usePathname } from 'next/navigation';
 
-import useActiveLink from '@/hooks/useActiveLink';
+import useActiveLink from '@/hooks/common/useActiveLink';
 
 import NavItem from './NavItem';
 import NavSubList from './NavSubList';
